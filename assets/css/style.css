@@ -69,6 +69,10 @@ section {
    margin: auto;
 }
 
+#book .container {
+    width: 50%;
+}
+
 .form input, .form textarea, .form select {
     background-color: #c7a69815;
     outline: none;
@@ -89,7 +93,7 @@ section {
     background-color: #c7a698ea;
 }
 
-.menu-list a , .copyright a, hr, .p{
+.menu-list a , .copyright a, hr, .p, #services a{
     color: #b4978a;
 }
 
@@ -119,6 +123,10 @@ section {
     #team .card-ctr {
         display: flex;
         justify-content: center;
+    }
+
+    #book .container {
+        width: 100%;
     }
 
 }

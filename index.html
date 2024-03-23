@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <title>Lueur Studio</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-transparent p-2 mb-1 shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fs-6" href="index.html"><img src="./assets/images/Salon.png" alt="" width="50">Lueur Hair Studio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-start"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              <img src="./assets/images/Salon.png" alt="" width="60">
+              Lueur Studio
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body d-flex flex-column flex-lg-row">
+            <ul
+              class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3 "
+            >
+              <li class="nav-item mx-2">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="index.html#about">About</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="services.html">Services</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="index.html#team">Team</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="index.html#testimonials">Testimonials</a>
+              </li>
+            </ul>
+            <div class="d-flex justify-content-center align-items-center">
+              <a href="contactus.html" class="text-decoration-none p-2  text-black"
+                >Contact us</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+   <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active c-ctr">
+            <img src="./assets/images/judeus-samson.jpg" class="d-block w-100 c-img" alt="...">
+            <div class="carousel-caption d-flex flex-column justify-content-center h-100 text-black">
+              <h1>Transform Your Tresses</h1>
+              <p class="fs-3">Explore Our World of Stunning Styles!</p>
+            </div>
+          </div>
+          <div class="carousel-item c-ctr">
+            <img src="./assets/images/hair2.jpg" class="d-block w-100 c-img" alt="...">
+            <div class="carousel-caption d-flex flex-column justify-content-center h-100 text-black">
+              <h1>Elevate Your Look</h1>
+              <p class="fs-3">Where Every Strand Tells a Story</p>
+            </div>
+          </div>
+          <div class="carousel-item c-ctr">
+            <img src="./assets/images/hair5.jpg" class="d-block w-100 c-img" alt="...">
+            <div class="carousel-caption d-flex flex-column justify-content-center h-100 text-black">
+              <h1>Unlock Your Hair's Potential</h1>
+              <p class="fs-3">Dive into a Haven of Beauty</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> 
+
+
+    <section id="about" class="m-5">
+      <div class="container d-flex justify-content-center align-items-center">
+        <div class="row w-100">
+          <div class="col-md-6 col-xl-6 align-self-center">
+            <h1>About Us</h1>
+            <p class="fs-5 text-secondary">
+              Lueur Hair Studio is a Professional Beauty Platform. Here we will provide you only interesting content, which you will like very much. We're dedicated to providing you the best of Beauty, with a focus on dependability, hair tips and salon. We're working to turn our passion for Beauty into a booming studio. We hope you enjoy our Beauty as much as we enjoy offering them to you.
+            </p>
+          </div>
+          <div class="col-md-6 col-xl-6">
+            <img src="./assets/images/about.png" alt="" class="about-img rounded">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="team">
+      <div class="container text-center ">
+        <h2 class="mb-0">Meet Our Team</h2>
+        <div class="section-line mb-5 shadow-sm"></div>
+        <div class="row text-center gy-3 ">
+          <div class="col-xl-3 col-lg-4 col-md-6 card-ctr">
+            <div class="card p-4" style="width: 16rem;">
+              <img src="./assets/images/team.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Amal Khaled</h5>
+                <p class="card-text text-secondary">Founder & CEO</p>
+                <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                  <i class="fa-brands fa-facebook " style="color: #000000;"></i>
+                  <i class="fa-brands fa-instagram mx-3" style="color: #000000;"></i>
+                  <i class="fa-brands fa-x-twitter " style="color: #000000;"></i>
+                </ul>   
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4  col-md-6 card-ctr">
+            <div class="card p-4" style="width: 16rem;">
+              <img src="./assets/images/pixabay-tm.jpg" height="139" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Naomi Chen</h5>
+                <p class="card-text text-secondary">General manager & Hair stylest</p>
+                <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                  <i class="fa-brands fa-facebook " style="color: #000000;"></i>
+                  <i class="fa-brands fa-instagram mx-3" style="color: #000000;"></i>
+                  <i class="fa-brands fa-x-twitter " style="color: #000000;"></i>
+                </ul>   
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4  col-md-6 card-ctr">
+            <div class="card p-4" style="width: 16rem;">
+              <img src="./assets/images/rachel-mcDermott-tm.jpg" height="139" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Rachel McDermott</h5>
+                <p class="card-text text-secondary">Hair stylest</p>
+                <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                  <i class="fa-brands fa-facebook " style="color: #000000;"></i>
+                  <i class="fa-brands fa-instagram mx-3" style="color: #000000;"></i>
+                  <i class="fa-brands fa-x-twitter " style="color: #000000;"></i>
+                </ul>   
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4  col-md-6 card-ctr">
+            <div class="card p-4" style="width: 16rem;">
+              <img src="./assets/images/godisable-jacob-tm.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Alina Jacob</h5>
+                <p class="card-text text-secondary">Advisor</p>
+                <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                  <i class="fa-brands fa-facebook " style="color: #000000;"></i>
+                  <i class="fa-brands fa-instagram mx-3" style="color: #000000;"></i>
+                  <i class="fa-brands fa-x-twitter " style="color: #000000;"></i>
+                </ul>   
+              </div>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="m-5">
+      
+      <div class="container text-center">
+        <h2 class="mb-0">Testimonials</h2>
+        <div class="section-line mb-5 shadow-sm"></div>
+        
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="rounded-circle shadow-1-strong mb-4"
+              src="./assets/images/tamara-bellis-ts.jpg" alt="avatar"
+              style="width: 150px; height:150px " />
+            <h5 class="mb-3">Anna Deynah</h5>
+            <p>Customer</p>
+            <p class="text-muted">
+              <i class="fas fa-quote-left pe-2"></i>
+              Lueur Hair Studio exceeded all my expectations. The talented team not only gave me a fantastic haircut but also made me feel welcome from the moment I stepped in. I won't trust anyone else with my hair again!
+            </p>
+            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 d-none d-lg-block">
+            <img class="rounded-circle shadow-1-strong mb-4"
+              src="./assets/images/umar-ben-ts.jpg" alt="avatar"
+              style="width: 150px; height:150px" />
+            <h5 class="mb-3">Mariam Omer</h5>
+            <p>Trainee</p>
+            <p class="text-muted">
+              <i class="fas fa-quote-left pe-2"></i>
+              After discovering Lueur Hair Studio for my training, I can confidently say it's become my top choice. The meticulous guidance and welcoming environment ensure each training session is enjoyable. I highly recommend it to anyone seeking professional development in the hair industry!
+            </p>
+            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li>
+                <i class="fas fa-star-half-alt fa-sm"></i>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 d-none d-lg-block">
+            <img class="rounded-circle shadow-1-strong mb-4"
+              src="./assets/images/edward-cisneros-ts.jpg" alt="avatar"
+              style="width: 150px; height:150px" />
+            <h5 class="mb-3">Maria Kate</h5>
+            <p>Customer</p>
+            <p class="text-muted">
+              <i class="fas fa-quote-left pe-2"></i>
+              Lueur Hair Studio is simply amazing! Their stylists have transformed my hair into something I never thought possible. I always leave feeling like a million dollars
+            </p>
+            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="far fa-star fa-sm"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+
+    </section>
+
+
+    
+
+    <hr class="mb-5">
+    <div class="container footer">
+      <div class="row">
+        <div class="pb-1">
+          <div class="row d-flex flex-wrap justify-content-between">
+            <div class="col-lg-3 col-sm-6 pb-3">
+              <div>
+                <img src="./assets/images/Salon.png" alt="logo" width="150">
+                <p>Your premier destination for exquisite haircare. </p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-sm-6 pb-3">
+              <div>
+                <h4 class="pb-2">Quick Links</h4>
+                <ul class="menu-list list-unstyled">
+                  <li class="pb-2">
+                    <a href="index.html#about">About</a>
+                  </li>
+                  <li class="pb-2">
+                    <a href="services.html">Services</a>
+                  </li>
+                  <li class="pb-2">
+                    <a href="gallery.html">Gallery</a>
+                  </li>
+                  <li class="pb-2">
+                    <a href="contactus.html">Contact</a>
+                  </li>
+                  
+                 
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 pb-3" >
+              <div class=" contact-item">
+                <h4 class="widget-title pb-2">Contact info</h4>
+                <ul class="menu-list list-unstyled">
+                  <li class=" pb-2">
+                    <a href="#">Al Khor, Doha, Qatar</a>
+                  </li>
+                  <li class="pb-2">
+                    <a href="#">+974 1111 2222</a>
+                  </li>
+                  <li class="pb-2">
+                    <a class="text-break" href="mailto:">lueurstudio.contact@gmail.com</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 pb-3">
+              <div>
+                <h4 class="pb-2">Social info</h4>
+                <p class="p">You can follow us on our social platforms to get updates.</p>
+                <div>
+                  <ul class="d-flex list-unstyled brands">
+                    <li>
+                      <a href="#">
+                          <i class="fa-brands fa-facebook" style="color: #c7a698e2;"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                          <i class="fa-brands fa-instagram mx-3" style="color: #c7a698e2;"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                          <i class="fa-brands fa-x-twitter " style="color: #c7a698e2;"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa-brands fa-linkedin mx-3" style="color: #c7a698e2;"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div id="footer-bottom">
+          <div class="container">
+            <div class="row d-flex flex-wrap justify-content-between">
+              <div class="col-12">
+                <div class="copyright">
+                  <p>© Copyright 2024 Lueur Studio. Design by <a href="https://templatesjungle.com/" target="_blank"><b>SD</b></a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    
+   
+      
+    </div> 
+    <script src="https://kit.fontawesome.com/b497ac372c.js" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="/assets/index.js"></script>
+  </body>
+</html>

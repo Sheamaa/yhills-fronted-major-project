@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body, b {
+   background-color: #F2E7E2;
+   font-family: "Cinzel", serif;
+   overflow-x: hidden
+}
+
+p {
+    font-family: "Raleway", sans-serif;;
+}
+
+section {
+    margin-bottom: 6rem;
+}
+
+.navbar {
+    background-color:  #f9d0be1a!important;
+}
+
+.c-ctr {
+    height: 600px;
+    object-fit: cover;
+    
+}
+.carousel-caption h1 {
+    color: #eeb8a1;
+    font-weight: 600;
+}
+.carousel-caption p {
+    color:  #F2E7E2;
+    font-weight: 400;
+}
+
+.c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.4);
+}
+
+.about-img {
+    height: 100%;
+    width: 100%;
+}
+
+.team-img {
+    width: 100px;
+    height: 100px;
+}
+
+
+.bg-title {
+    height: 400px;
+    width: 100%;
+    opacity: 0.80;
+}
+
+.ser-img {
+    height: 100%;
+    max-width: 230px;
+}
+
+.section-line {
+   border-bottom:  #c7a69863 2px solid;
+   border-radius: 2px;
+   padding-bottom: 0.4rem;
+   width: 50%;
+   margin: auto;
+}
+
+.form input, .form textarea, .form select {
+    background-color: #c7a69815;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #c7a698;
+}
+.form select option {
+    background-color: #c7a69815;
+}
+.form input:focus, .form textarea:focus {
+    background-color: #c7a69808;
+}
+
+.btn {
+    background-color: #c7a698bd;
+}
+.btn:hover {
+    background-color: #c7a698ea;
+}
+
+.menu-list a , .copyright a, hr, .p{
+    color: #b4978a;
+}
+
+#team .card {
+    background-color: #c7a69819;
+
+}
+@media screen and (max-width:991px) {
+    .sidebar{
+        opacity: 0.50;
+    }
+    .bg-title {
+        height: 300px;
+    }
+    
+}
+
+@media (max-width: 770px) { 
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    .brands {
+        justify-content: center;
+    }
+
+    #team .card-ctr {
+        display: flex;
+        justify-content: center;
+    }
+
+}
